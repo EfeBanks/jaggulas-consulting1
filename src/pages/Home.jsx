@@ -4,8 +4,10 @@ import dummy1 from '../assets/images/dummy1.png';
 import dummy2 from '../assets/images/dummy2.png';
 import dummy3 from '../assets/images/dummy3.png';
 import dummy4 from '../assets/images/dummy4.png';
-import handshake from '../assets/images/handshake.png'
-import { RiScrollToBottomLine } from "react-icons/ri";
+import handshake from '../assets/images/handshake1.png'
+import handshake2 from '../assets/images/handshake2.png'
+import scrolldown from '../assets/images/scrolldown.png'
+//import { RiScrollToBottomLine } from "react-icons/ri";
 import { FaAward } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
 import { MdDisplaySettings } from "react-icons/md";
@@ -35,7 +37,8 @@ function Home() {
                 
             </div>
             <div className="caption3">
-              <span className='scrolldown'><RiScrollToBottomLine /></span>
+              {/* <span className='scrolldown'><RiScrollToBottomLine /></span> */}
+              <img src={scrolldown} alt="scroll down" className='scrolldown' />
 
             </div>
           </div>   
@@ -50,8 +53,18 @@ function Home() {
         <div className="row align-items-center mx-sm-5 mx-3">
             <div className="col-sm-4 m-sm-4 m-2 p-2 ps-0 "  >
               <img src={handshake} alt="handshake" className='handshake img-fluid'/>
+              <img src={handshake2} alt="handshake" className='handshake2 img-fluid'/>
             </div>
+            <div className="col-sm">
+            <div className="row">
+                <div className="col-12 mb-4 trusted-partner">
+                  <h3>Trusted Partner for Business Transformation</h3>
+                </div>
+            </div>
+
+            <div className="row">
             <div className="col-sm second-section-text">
+
               <div className='second-section-icon'> <FaAward /></div>
               <h5 className='my-3'>High Quality Delivery</h5>
               <p>
@@ -76,6 +89,8 @@ function Home() {
  
               </p>
             </div>
+            </div>
+            </div> 
         </div>
       </div>  
         {/* Trusted Partner ends */}

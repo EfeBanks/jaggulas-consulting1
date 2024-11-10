@@ -106,8 +106,9 @@
 }
 
 .scrolldown{
-  color:#fff;
-  font-size: 30px;
+  /* color:#fff;
+  font-size: 30px; */
+  width: 4%;
   animation:fadeInImage 1s ease forwards, dance 3.3s ease-in-out infinite;
 }
 
@@ -153,8 +154,20 @@
 }
 
 .handshake{
-  width:100%;
+  width:50%;
   height: auto;
+}
+
+.handshake2{
+  width:40%;
+  height: auto;
+  z-index: 1;
+  margin-left: -8%;
+ 
+}
+
+.trusted-partner h3{
+  font-weight: bold;
 }
 
 .second-section-text h5{
