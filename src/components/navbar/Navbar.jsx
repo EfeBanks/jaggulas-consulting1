@@ -18,7 +18,7 @@ import Professional from '../views/Professional';
 import Web from '../views/Web';
 import Apig from '../views/Apig';
 import Backend from '../views/Backend';
-import Empty from '../views/Empty';
+
 
 
 export default function NavigationBar({menuOpen, setMenuOpen}) {
@@ -50,8 +50,7 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
           return <Backend />;
         case 9:
           return <Apig />;
-        case 10:
-          return <Empty/>;
+
             
         default:
           return <Consulting />;
@@ -103,49 +102,49 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
                         <div className="mega-content">
                         <div className="row mega-left">      
                                 <ul className="mega-links">
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(1)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#consulting' className='mega-link' >Consulting Services
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(1)}><HashLink to='/Services#consulting' className='mega-link' >Consulting Services
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink></li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(2)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#managed' className='mega-link' >Managed Services
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(2)}><HashLink to='/Services#managed' className='mega-link' >Managed Services
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink></li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(3)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#professional' className='mega-link'>Professional Services
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(3)} ><HashLink to='/Services#professional' className='mega-link'>Professional Services
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink></li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(4)} onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(4)}>
                                       <HashLink to='/Services#cloudassessments' className='mega-link' >Cloud Assessments
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(5)} onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(5)}>
                                       <HashLink to='/Services#cloudcost' className='mega-link' >Cloud Cost Optimization
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(6)} onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(6)} >
                                       <HashLink to='/Services#migration' className='mega-link' >Migration & modernization
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(7)}  onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(7)}  >
                                       <HashLink smooth to='/Services#web' className='mega-link' >Web Application Development
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(8)} onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(8)} >
                                       <HashLink to='/Services#backend' className='mega-link' >Backend Development 
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>
 
-                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(9)} onMouseLeave={()=> SetView(10)}>
+                                    <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(9)} >
                                       <HashLink to='/Services#api' className='mega-link' >API Gateways
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
