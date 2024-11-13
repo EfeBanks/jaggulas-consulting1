@@ -6,7 +6,7 @@
 }
 
 nav{
-    position: sticky;
+    position:relative;
     top:0;
     width: 100%;
     z-index:10;
@@ -63,12 +63,18 @@ nav .navbar{
 }
 
 .nav-links li .nav-link:hover{
-    font-weight: bold; 
-    
+    font-weight: bold;    
 }
 
 .nav-link{
     font-size: 15px !important;
+}
+
+.know-more{
+    background-color: #08baf5;
+    border-radius:10px;
+    border:none;
+    padding:0 15px;
 }
 
 a.nav-link:active{
@@ -91,7 +97,8 @@ a.mega-link:active{
 }
 
 .mega-container .mega-content {
-    background-color: #000426 ;
+    background-color: #010528 ;
+    /* background-color: #000426 ; */
     color:white;
     padding: 25px 20px;
     display: flex;
@@ -120,7 +127,7 @@ a.mega-link:active{
 }
 
 .mega-special-container{
-    background-color: #000426 ;
+    background-color: #010528 ;
     padding:5%;
    
        

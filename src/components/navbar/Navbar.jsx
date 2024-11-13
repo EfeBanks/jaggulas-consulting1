@@ -1,17 +1,71 @@
 import React, {useState} from 'react'
 import './Navbar.css';
-import {Link} from 'react-router-dom';
+import { useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { IoIosArrowDown } from "react-icons/io";
 import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import BrandLogo from '../../assets/images/logo2.png';
 import { FaArrowRightLong } from "react-icons/fa6";
+//
+import Consulting from '../views/Consulting';
+import Managed from '../views/Managed';
+import CloudAss from '../views/Clouda';
+import CloudCost from '../views/Cloudc';
+import Migration from '../views/Migration';
+import Professional from '../views/Professional';
+import Web from '../views/Web';
+import Apig from '../views/Apig';
+import Backend from '../views/Backend';
+import Empty from '../views/Empty';
 
 
 export default function NavigationBar({menuOpen, setMenuOpen}) {
 
     // Making the links close Navbar on click
     const [megaShow, setMegaShow] = useState(false);
+    const [active, setActive] = React.useState(1);
+    const SetView = (active) => {
+      setActive(active);
+    };
+  
+    const ActiveView = () => {
+      switch (active) {
+        case 1:
+          return <Consulting/>;
+        case 2:
+          return <Managed />;
+        case 3:
+          return <Professional />;
+        case 4:
+          return <CloudAss />;
+        case 5:
+            return <CloudCost />;
+        case 6:
+            return <Migration />;
+        case 7:
+            return <Web />;
+        case 8:
+          return <Backend />;
+        case 9:
+          return <Apig />;
+        case 10:
+          return <Empty/>;
+            
+        default:
+          return <Consulting />;
+      }
+    };
+    
+    // Extracts pathname property(key) from an object
+    const { pathname } = useLocation();
+  
+    // Automatically scrolls to top whenever pathname changes
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
 
 
    
@@ -29,13 +83,13 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
 
                 <li>
                      {/* For Desktop view */}
-                     <Link to='/Industries ' className="nav-link desktop-item"> Services  
+                     <Link to='/Services ' className="nav-link desktop-item"> Services  
                 <span className='icon-rotate ms-2'> <IoIosArrowDown /> </span></Link>
 
                     {/* For mobile view */}
                         <div className='mobile-separate mobile-item'>
                         <div className='separate1' > 
-                            <Link to='/Industries' className="nav-link" onClick={() => setMenuOpen (false)}> Services </Link>
+                            <Link to='/Services' className="nav-link" onClick={() => setMenuOpen (false)}> Services </Link>
                         </div>
 
                         <div className='separate2' > 
@@ -49,31 +103,60 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
                         <div className="mega-content">
                         <div className="row mega-left">      
                                 <ul className="mega-links">
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Finance' className='mega-link'>Financial Services
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(1)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#consulting' className='mega-link' >Consulting Services
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Media' className='mega-link'>Media & Entertainment
+                                    </HashLink></li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(2)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#managed' className='mega-link' >Managed Services
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Finance' className='mega-link'>Financial Services
+                                    </HashLink></li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(3)} onMouseLeave={()=> SetView(10)}><HashLink to='/Services#professional' className='mega-link'>Professional Services
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Media' className='mega-link'>Media & Entertainment
+                                    </HashLink></li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(4)} onMouseLeave={()=> SetView(10)}>
+                                      <HashLink to='/Services#cloudassessments' className='mega-link' >Cloud Assessments
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Finance' className='mega-link'>Financial Services
+                                    </HashLink>
+                                    </li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(5)} onMouseLeave={()=> SetView(10)}>
+                                      <HashLink to='/Services#cloudcost' className='mega-link' >Cloud Cost Optimization
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
-                                    <li onClick={() => setMenuOpen (false)}><Link to='/Media' className='mega-link'>Media & Entertainment
+                                    </HashLink>
+                                    </li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(6)} onMouseLeave={()=> SetView(10)}>
+                                      <HashLink to='/Services#migration' className='mega-link' >Migration & modernization
                                     <span className=''> <FaArrowRightLong /> </span>
-                                    </Link></li>
+                                    </HashLink>
+                                    </li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(7)}  onMouseLeave={()=> SetView(10)}>
+                                      <HashLink smooth to='/Services#web' className='mega-link' >Web Application Development
+                                    <span className=''> <FaArrowRightLong /> </span>
+                                    </HashLink>
+                                    </li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(8)} onMouseLeave={()=> SetView(10)}>
+                                      <HashLink to='/Services#backend' className='mega-link' >Backend Development 
+                                    <span className=''> <FaArrowRightLong /> </span>
+                                    </HashLink>
+                                    </li>
+
+                                    <li onClick={() => setMenuOpen (false)} onMouseEnter={()=> SetView(9)} onMouseLeave={()=> SetView(10)}>
+                                      <HashLink to='/Services#api' className='mega-link' >API Gateways
+                                    <span className=''> <FaArrowRightLong /> </span>
+                                    </HashLink>
+                                    </li>
                                 </ul> 
                         </div>
 
                         <div className="row mega-right">
                                 <div className="mega-links mega-special-container">
-                                <header className='header-special'>Service 1</header>
-                                    <p>Obtain top-class and standard-compliant custom software tailored specifically to your business needs with us.</p>
+                                {/* <header className='header-special'>Service 1</header> */}
+                                {ActiveView()}
                                    
                                 </div>  
                                 

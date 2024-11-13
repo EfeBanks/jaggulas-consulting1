@@ -12,8 +12,11 @@
 
 /* .videoBg{
   width: 100%;
-  height: 100vh;
-  position: relative;  
+  min-height: 100vh;
+  position: absolute;
+  right: 0;
+  display: flex; 
+  justify-content: start; 
 
 } */
 
@@ -53,7 +56,7 @@
   animation:text-movement 4s 1s ease infinite;
 }
 
-/* 
+
 @keyframes text-movement{
 
   0%{
@@ -65,7 +68,7 @@
       opacity: 1;
   }
  
-} */
+}
 
 
 .caption1 h1{
@@ -185,3 +188,107 @@
 }
 
 /* Trusted Partner section ends */
+
+/* Location section */
+
+
+.location-section{
+  background-color: #010528;
+}
+
+.first-cont{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/india.jpg");
+  background-size:cover;
+  transition:1s ease;
+
+}
+.second-cont{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/sa.jpg");
+  background-size:cover;
+  transition:1s ease;
+
+}
+
+.first-cont:hover{
+  transform: scale(1.1);
+}
+
+.second-cont:hover{
+  transform: scale(1.1);
+}
+
+.cont-inner{
+  font-size: 12px;
+}
+
+
+
+
+/* Location section ends*/
+
+
+/* Services page */
+.banner-bg img{
+  /* background-color: #001019; */
+  width:100%;
+  margin:-10% 0 0 0;
+  height: 100vh;
+  object-fit: cover;
+  
+}
+
+.banner-bg-content h1{
+  font-size: 70px;
+  font-weight: bold;
+  color:white;
+}
+
+.bg-content{
+  position:absolute;
+  height: 100%;
+  top:0;
+  display:flex; 
+  align-items: center;
+  justify-content: flex-start;
+  color:#fff;
+}
+
+.text p{
+  text-align: justify;
+}
+
+.section-bg1{
+  background-image: url(assets/images/bg3-n.jpg);
+  background-size: cover;
+  color:#fff;
+}
+
+.section-bg2{
+  background-color:  #050B3A;
+  color:#fff;
+}
+
+.service-img{
+  width: 350px;
+  transition:1s;
+}
+
+.service-img:hover{
+  transform: scale(1.1);
+}
+
+/* Services page ends*/
+
+
+
+/* Media Query */
+@media screen and (max-width:768px){
+  .banner-bg-content h1{
+    font-size: 35px;
+    
+  }
+
+}
+
+
+/* 1.618 - the golden division rule of Illustrator */
