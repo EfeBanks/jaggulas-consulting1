@@ -276,7 +276,80 @@
   transform: scale(1.1);
 }
 
+
+
 /* Services page ends*/
+
+/* About page*/
+
+.about-img{
+  width: 500px;
+  transition:1s;
+
+}
+
+.about-img:hover{
+  transform: scale(1.1);
+}
+
+.about-heading{
+  color:#08baf5;
+}
+
+.offer{
+  list-style-type: none;
+  margin:0 !important;
+  padding: 0 !important;
+}
+.offer li{
+  font-size: 14px !important;
+}
+
+.offer-icon{
+  color:#08baf5;
+}
+
+.dash{
+  width: 60px;
+  height: 2px;
+  background-color: #08baf5;
+  display: inline-block;
+}
+
+.contact-btn{
+  background-color: #08baf5;
+  border-radius:10px;
+  border:none;
+  padding:15px !important;
+}
+
+.vision-cont{
+  background-color: #050b3a84;
+  transition:1s ease;
+}
+
+.vision-cont:hover{
+  /* background-color:#050b3ae6; */
+  background-color:#111536e6;
+
+}
+
+.vision-icon{
+  font-size: 32px;
+  color: #08baf5;
+}
+
+
+/* About page ends*/
+
+
+
+
+
+
+
+
+
 
 
 
@@ -284,6 +357,11 @@
 @media screen and (max-width:768px){
   .banner-bg-content h1{
     font-size: 35px;
+    
+  }
+
+  .videoBg-overlay{
+    height: 100%;
     
   }
 
