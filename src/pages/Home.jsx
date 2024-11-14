@@ -21,8 +21,7 @@ function Home() {
     <div>
          {/* Hero section */}
       <div className="row">
-        <div className='videoBg'>
-          
+        <div className='videoBg'>         
           <video src={cloudvid} autoPlay loop muted playsInline webkit-playsInline />
           <div className="videoBg-overlay"></div>
           {/* <div className="caption"> */}
