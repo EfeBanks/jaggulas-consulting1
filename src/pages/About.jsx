@@ -32,7 +32,7 @@ export default function About() {
 
       {/* about section */}
       <div className="section-bg1 border-bottom border-secondary">
-        <div className="container py-sm-5 py-5">
+        <div className="container py-5">
       <div className="row py-5 px-4 g-4 d-flex justify-content-center">
             <div className="col-md-6">
               <img src={AboutImg} alt="jaggulas consulting" className='img-fluid about-img'/>
@@ -66,7 +66,7 @@ export default function About() {
 
        <div className="location-section p-5 ">
        <h4 className='fw-bold mb-3 about-heading ps-4'>What We Do <span className='dash ms-2'></span></h4>
-          <div className="row py-5 px-4 mx-sm-5 mx-2 d-flex justify-content-center g-4 text-light">
+          <div className="row py-5 px-sm-4 px-0 mx-sm-5 mx-1 d-flex justify-content-center g-4 text-light">
           
           <div className="col-md-4 vision-cont py-2 rounded-3 mx-2">
             <div className="p-3 text-center">

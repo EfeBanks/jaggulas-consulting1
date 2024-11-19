@@ -1,5 +1,5 @@
 import React from 'react'
-import ServiceBg from '../assets/images/service-bg1.jpg'
+import ServiceBg from '../assets/images/service-bg1.1.jpg'
 import Service1 from '../assets/images/service1.jpg'
 import Service2 from '../assets/images/service2.jpg'
 import Service3 from '../assets/images/service3.jpg'

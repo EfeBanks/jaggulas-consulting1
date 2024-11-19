@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import JCLocation from './components/JCLocation';
+import Careers from './pages/Careers';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
           <Route path = "About" element = {<About/>} />
           <Route path = "Services" element = {<Services/>} />
           <Route path = "Contact" element = {<Contact/>} />
+          <Route path = "Careers" element = {<Careers/>} />
+          <Route path = "JCLocation" element = {<JCLocation/>} />
         </Routes>
         <Footer />
       </Router>
