@@ -6,6 +6,7 @@
 
 .app{
   font-family: "Poppins";
+  overflow-x: hidden;
 }
 
 /* Home page styles */

@@ -69,15 +69,15 @@ export default function About() {
           <div className="row py-5 px-sm-4 px-0 mx-sm-5 mx-1 d-flex justify-content-center g-4 text-light">
           
           <div className="col-md-4 vision-cont py-2 rounded-3 mx-2">
-            <div className="p-3 text-center">
+            <div className="p-sm-3 p-1 text-center">
               <div className='vision-icon'>< MdOutlineVisibility/></div>
                   <h5 className="  pb-2 mx-2">Our Vision</h5>
-                  <div className="p-2 ">
+                  <div className="p-sm-2 p-0 ">
                   <p className="my-3">
                   To shape the future of technology by providing cutting-edge cloud solutions and Advanced Technology Architecture, empowering organizations to innovate and thrive. We aim to be a catalyst for digital transformation, fostering a resilient and interconnected digital landscape that benefits businesses and communities alike.
 
                   </p>
-                  <div className=" my-3">
+                  <div className="my-3">
                     {/* <button className="contact-btn mt-3" onClick={handleShow} >Read More</button> */}
                     <Link to="/Contact">
                     <button className="contact-btn mt-3 fw-bold" >Contact Us</button>
@@ -91,10 +91,10 @@ export default function About() {
             </div>
 
             <div className="col-md-4 vision-cont py-2 rounded-3 mx-2">
-            <div className="p-3 text-center">
+            <div className="p-sm-3 p-1 text-center">
               <div className="vision-icon"><TbTargetArrow/></div>
-                  <h5 className="  pb-2 mx-2">Our Mission</h5>
-                  <div className="p-2 ">
+                  <h5 className=" pb-2 mx-2">Our Mission</h5>
+                  <div className="p-sm-2 p-0 ">
                   <p className="my-3">
                   To empower businesses through innovative cloud-based solutions and exceptional software development, enhancing collaboration, scalability, and operational efficiency, and driving seamless digital transformation.
 
