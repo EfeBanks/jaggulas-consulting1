@@ -494,6 +494,18 @@ a.link-text:hover{
   .app{
     overflow-x: hidden;
   }
+  .videoBg{
+
+    height: 90vh;
+    
+  }
+  
+  .videoBg-overlay{
+
+    height: 90vh;
+
+  
+  }
 
   .banner-bg-content h1{
     font-size: 35px;
@@ -503,11 +515,15 @@ a.link-text:hover{
     margin-top:-30%;
    
   }
+
+  .moving-img img{
+    width:90%;
+   
+  }
   .scrolldown{
-    width: 20px;
+    width: 40px;
 
   }
-
 
 
   .showcase-cont{
