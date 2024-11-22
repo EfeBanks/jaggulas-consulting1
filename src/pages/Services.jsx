@@ -1,5 +1,5 @@
 import React from 'react'
-import ServiceBg from '../assets/images/service-bg1.1.jpg'
+import ServiceBg from '../assets/images/nbg2.1.jpg'
 import Service1 from '../assets/images/service1.jpg'
 import Service2 from '../assets/images/service2.jpg'
 import Service3 from '../assets/images/service3.jpg'
@@ -7,7 +7,7 @@ import Service4 from '../assets/images/service4.jpg'
 import Service5 from '../assets/images/service5.jpg'
 import Service6 from '../assets/images/service6.jpg'
 import Service7 from '../assets/images/service7.jpg'
-import Service8 from '../assets/images/service8.jpg'
+import Service8 from '../assets/images/nserv3.jpg'
 //import Service9 from '../assets/images/service9.jpg'
 import Service10 from '../assets/images/service10.jpg'
 
@@ -58,7 +58,7 @@ export default function Services() {
               
             </div>
             <div className="col-sm-4">
-              <img src={Service2} alt="jaggulas consulting" className='img-fluid service-img'/>
+              <img src={Service8} alt="jaggulas consulting" className='img-fluid service-img'/>
             </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ export default function Services() {
         <div className="container py-sm-5 py-5">
       <div className="row py-5 px-4 g-5 d-flex justify-content-center">
             <div className="col-sm-4">
-              <img src={Service8} alt="jaggulas consulting" className='img-fluid service-img'/>
+              <img src={Service2} alt="jaggulas consulting" className='img-fluid service-img'/>
             </div>
             <div className="col-sm-4 text">
               <h3 className='fw-bold mb-3'>Web Application Development</h3>

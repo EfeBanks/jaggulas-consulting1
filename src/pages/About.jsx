@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import AboutBg from '../assets/images/about-bg1.jpg'
-import AboutImg from "../assets/images/about-img.png";
+import AboutBg from '../assets/images/nbg1.jpg'
+import AboutImg from "../assets/images/nabout.jpg";
 import { FaCheckCircle } from "react-icons/fa";
-import { TbWorldStar } from "react-icons/tb";
 import { TbTargetArrow } from "react-icons/tb";
+import { MdOutlineVisibility } from "react-icons/md";
 import Modal from 'react-bootstrap/Modal';
 import Service10 from '../assets/images/service10.jpg'
 import { Link } from 'react-router-dom';
@@ -65,22 +65,22 @@ export default function About() {
       {/* what we do */}
 
        <div className="location-section p-5 ">
-       <h4 className='fw-bold mb-3 about-heading ps-4'>What We Do <span className='dash ms-2'></span></h4>
+       {/* <h4 className='fw-bold mb-3 about-heading ps-4'>What We Do <span className='dash ms-2'></span></h4> */}
           <div className="row py-5 px-sm-4 px-0 mx-sm-5 mx-1 d-flex justify-content-center g-4 text-light">
           
           <div className="col-md-4 vision-cont py-2 rounded-3 mx-2">
             <div className="p-3 text-center">
-              <div className='vision-icon'><TbWorldStar/></div>
+              <div className='vision-icon'>< MdOutlineVisibility/></div>
                   <h5 className="  pb-2 mx-2">Our Vision</h5>
-                  <div className="cont-inner p-2 ">
-                  <p className="address my-3">
+                  <div className="p-2 ">
+                  <p className="my-3">
                   To shape the future of technology by providing cutting-edge cloud solutions and Advanced Technology Architecture, empowering organizations to innovate and thrive. We aim to be a catalyst for digital transformation, fostering a resilient and interconnected digital landscape that benefits businesses and communities alike.
 
                   </p>
                   <div className=" my-3">
                     {/* <button className="contact-btn mt-3" onClick={handleShow} >Read More</button> */}
                     <Link to="/Contact">
-                    <button className="contact-btn mt-3" >Contact Us</button>
+                    <button className="contact-btn mt-3 fw-bold" >Contact Us</button>
                     </Link>
                   </div>
 
@@ -94,14 +94,14 @@ export default function About() {
             <div className="p-3 text-center">
               <div className="vision-icon"><TbTargetArrow/></div>
                   <h5 className="  pb-2 mx-2">Our Mission</h5>
-                  <div className="cont-inner p-2 ">
-                  <p className="address my-3">
+                  <div className="p-2 ">
+                  <p className="my-3">
                   To empower businesses through innovative cloud-based solutions and exceptional software development, enhancing collaboration, scalability, and operational efficiency, and driving seamless digital transformation.
 
                   </p>
                   <div className=" my-3">
                     <Link to="/Contact">
-                    <button className="contact-btn mt-3" >Contact Us</button>
+                    <button className="contact-btn mt-3 fw-bold" >Contact Us</button>
                     </Link>
                   </div>
 

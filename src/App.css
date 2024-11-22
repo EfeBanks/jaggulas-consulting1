@@ -151,7 +151,8 @@
 /* Trusted Partner section */
 
 .second-section{
-  background-image: url(assets/images/bg3.jpg);
+  /* background-image: url(assets/images/bg3.jpg); */
+  background: linear-gradient(to top, #00051e,  #010528);
   padding:5% 0;
   color:#fff;
 }
@@ -197,7 +198,7 @@
 }
 
 .first-cont{
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/india.jpg");
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/india2.jpg");
   background-size:cover;
   transition:1s ease;
 
@@ -304,6 +305,7 @@
 }
 .offer li{
   font-size: 14px !important;
+  text-align: justify;
 }
 
 .offer-icon{
@@ -342,6 +344,42 @@
 
 
 /* About page ends*/
+
+/* Contact page */
+form input,textarea{
+  border:none;
+  border-bottom:1px solid #cccccc; 
+  padding:10px;
+  background:transparent;
+  
+  
+}
+
+form {
+  display:flex;
+  flex-direction:column;
+ 
+}
+
+.input-full{
+  width: 100%;
+
+}
+
+.input-half{
+  width: 48.5%;
+}
+
+::placeholder{
+  color: #fff;
+  
+} input[type = checkbox]{
+  display: inline-block;
+}
+
+
+
+/* Contact page ends */
 
 
 /* Footer */

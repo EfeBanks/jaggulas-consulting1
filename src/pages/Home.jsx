@@ -12,6 +12,7 @@ import { FaAward } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
 import { MdDisplaySettings } from "react-icons/md";
 import JCLocation from '../components/JCLocation';
+import { HashLink } from 'react-router-hash-link';
 
 
 function Home() {
@@ -40,8 +41,9 @@ function Home() {
             </div>
             <div className="caption3">
               {/* <span className='scrolldown'><RiScrollToBottomLine /></span> */}
-              <img src={scrolldown} alt="scroll down" className='scrolldown' />
-
+              <HashLink to='./#second'>
+                <img src={scrolldown} alt="scroll down" className='scrolldown' />
+              </HashLink>
             </div>
           {/* </div>    */}
           
@@ -51,7 +53,7 @@ function Home() {
         {/* Hero section ends */}
 
      {/* Trusted Partner */}
-     <div className="second-section">
+     <div className="second-section" id='second'>
         <div className="row align-items-center mx-sm-5 mx-3">
             <div className="col-sm-4 m-sm-4 m-2 p-2 ps-0 "  >
               <img src={handshake} alt="handshake" className='handshake img-fluid'/>
