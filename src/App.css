@@ -6,7 +6,8 @@
 
 .app{
   font-family: "Poppins";
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
 }
 
 /* Home page styles */
@@ -22,6 +23,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  overflow: hidden;
 
 }
 
@@ -30,6 +32,7 @@
   position: absolute;
   width: 100%;
   height: 110vh;
+  overflow: hidden;
   background-color: rgba(0,0,0,.7);
   /* background-color: #000000aa; */
 
@@ -493,9 +496,9 @@ a.link-text:hover{
 @media screen and (max-width:768px){
   .app{
     overflow-x: hidden;
+    max-width: 100%;
   }
   .videoBg{
-
     height: 90vh;
     
   }
