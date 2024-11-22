@@ -17,13 +17,12 @@ import { HashLink } from 'react-router-hash-link';
 
 function Home() {
   return (
-    <div>
+    <div className='home-bg'>
          {/* Hero section */}
-      <div className="row">
+      {/* <div className="row">
         <div className='videoBg'>         
           <video src={cloudvid} autoPlay loop muted playsInline webkit-playsInline />
           <div className="videoBg-overlay"></div>
-          {/* <div className="caption"> */}
             <div className="caption1">
                 <h1>Jaggulas Consulting</h1>
                 <h3>Your Perfect Virtual Partner</h3> 
@@ -37,20 +36,44 @@ function Home() {
                 <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
                 <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
                 <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>
-                
+               
             </div>
             <div className="caption3">
-              {/* <span className='scrolldown'><RiScrollToBottomLine /></span> */}
               <HashLink to='./#second'>
                 <img src={scrolldown} alt="scroll down" className='scrolldown' />
               </HashLink>
-            </div>
-          {/* </div>    */}
-          
+            </div>         
           
         </div>
-      </div>
+      </div> */}
         {/* Hero section ends */}
+
+    {/* Hero section 2 */}
+        <div className='videoBg'>
+        <div className="videoBg-overlay"></div>
+          <video src={cloudvid} autoPlay loop muted playsInline webkit-playsInline />
+          <div className="caption1">
+            <h1>Jaggulas Consulting</h1>
+            <h3>Your Perfect Virtual Partner</h3> 
+          </div>
+          <div className="caption2"> 
+                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
+                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
+                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
+                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>
+                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
+                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
+                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
+                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>       
+            </div>
+            <div className="caption3">
+              <HashLink to='./#second'>
+                <img src={scrolldown} alt="scroll down" className='scrolldown' />
+              </HashLink>
+            </div>  
+        </div>
+
+    {/* Hero section 2 ends */}
 
      {/* Trusted Partner */}
      <div className="second-section" id='second'>
@@ -102,7 +125,7 @@ function Home() {
         {/* Services showcase */}
         <div className="second-section">
         <div className="row">
-                <div className="col-12 mb-4 trusted-partner text-center">
+                <div className="col-12 mb-1 trusted-partner text-center">
                   <h3>Elevate your business with Jaggulas Consulting</h3>
                 </div>
         </div>
