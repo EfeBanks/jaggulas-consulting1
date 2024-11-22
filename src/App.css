@@ -191,6 +191,91 @@
 
 /* Trusted Partner section ends */
 
+/* Services showcase */
+.showcase-cont{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel{
+  width: 50px;
+  height: 90vh;
+  margin: 10px;
+  border-radius: 20px;
+  flex:1;
+  background: no-repeat scroll center;
+  background-size: cover;
+  transition:all 0.5s linear;
+  position: relative;
+}
+
+.panel h6{
+  position: absolute;
+  left:0;
+  bottom:100px;
+  transform: rotate(-90deg);
+  transition:all 0.5s linear;
+}
+.panel:hover{
+  flex:4;
+  
+}
+
+.panel:hover h6{
+  transform: rotate(0deg);
+  left:15px;
+
+}
+
+.reveal{
+  transition:all 0.8s linear;
+  display: none;
+  
+  
+}
+
+.panel:hover .reveal{
+  display: block;
+  position: absolute;
+  left:15px;
+  bottom:50px;
+ 
+}
+
+#panel-1{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service10.jpg");
+}
+#panel-2{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/nserv3.jpg");
+}
+#panel-3{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service1.jpg");
+}
+#panel-4{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service3.jpg");
+}
+#panel-5{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service6.jpg");
+}
+#panel-6{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service7.jpg");
+}
+#panel-7{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service2.jpg");
+}
+#panel-8{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service5.jpg");
+}
+#panel-9{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/service4.jpg");
+}
+
+
+/* Services showcase ends */
+
 /* Location section */
 
 
@@ -424,6 +509,30 @@ a.link-text:hover{
   .videoBg-overlay{
     height: 100%;
     
+  }
+
+
+  .showcase-cont{
+    flex-direction: column;
+
+   
+  }
+
+  .panel{
+    border-radius: 10px;
+   
+  }
+  
+  .panel h6{
+    transform: rotate(0deg);
+    bottom:0;
+    left:15px;
+    font-size:13px;
+
+  }
+
+  .know-more{
+    font-size: 12px;
   }
 
 

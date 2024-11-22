@@ -127,7 +127,7 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
                                     </li>
 
                                     <li onClick={() => setMenuOpen (false)} onMouseOver={()=> SetView(6)} >
-                                      <HashLink to='/Services#migration' className='mega-link' >Migration & modernization
+                                      <HashLink to='/Services#migration' className='mega-link' >Migration & Modernization
                                     <span className=''> <FaArrowRightLong /> </span>
                                     </HashLink>
                                     </li>

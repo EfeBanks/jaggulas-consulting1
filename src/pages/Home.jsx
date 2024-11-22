@@ -99,6 +99,57 @@ function Home() {
       </div>  
         {/* Trusted Partner ends */}
 
+        {/* Services showcase */}
+        <div className="second-section">
+        <div className="row">
+                <div className="col-12 mb-4 trusted-partner text-center">
+                  <h3>Elevate your business with Jaggulas Consulting</h3>
+                </div>
+        </div>
+    
+          <div className="row showcase-cont mx-3">
+            <div className="panel" id="panel-1">
+              <h6 className='fw-bold'>Consulting Services</h6>
+              <HashLink to='/Services#consulting'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-2">
+            <h6 className='fw-bold'>Managed Services</h6>
+            <HashLink to='/Services#managed'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-3">
+            <h6 className='fw-bold'>Professional Services</h6>
+            <HashLink to='/Services#professional'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-4">
+            <h6 className='fw-bold'>Cloud Assessments</h6>
+            <HashLink to='/Services#cloudassessments'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-5">
+            <h6 className='fw-bold'>Cloud Cost Optimization</h6>
+            <HashLink to='/Services#cloudcost'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-6">
+            <h6 className='fw-bold'>Migration & Modernization</h6>
+            <HashLink to='/Services#migration'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-7">
+            <h6 className='fw-bold'>Web Application Development</h6>
+            <HashLink to='/Services#web'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-8">
+            <h6 className='fw-bold'>Backend Development</h6>
+            <HashLink to='/Services#backend'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+            <div className="panel" id="panel-9">
+            <h6 className='fw-bold'>API Gateways</h6>
+            <HashLink to='/Services#api'> <button className='reveal know-more p-2'>Know more</button> </HashLink>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Services showcase ends*/}
+
           {/* Location */}
           <JCLocation />
 
