@@ -30,13 +30,20 @@ export default function Contact() {
             <p className='small'>We have fostered growth and meaningful transformation in every industry and are eager to build on your trust. Share a bit more about yourself so we can get started!</p>
 
             <form id="contact-form" method="POST" className='small py-4'>
-              <div className='py-2'>
-                <input name= "fName" type="text" placeholder="First Name*" className='input-half'  required/>
-                <span className='ps-3'><input name= "lName" type="text" placeholder="Last Name* " className='input-half' required /></span>
+              <div className="row">
+                <div className='col-sm-6 py-2'>
+                  <input name= "fName" type="text" placeholder="First Name*"  className='input-full' required/>
+                </div>
+                <div className="col-sm-6 py-2">
+                  <input name= "lName" type="text" placeholder="Last Name* " className='input-full' required />
+                </div>
+              
+
+              <div className='col-sm-6 py-2'>
+                <input name= "email" type="email" placeholder="Email*" className='input-full' required/>
               </div>
-              <div className='py-2'>
-                <input name= "email" type="email" placeholder="Email*" className='input-half' required/>
-                <span className='ps-3'> <input name= "organization" type="text" placeholder='Organization*' className='input-half'  required /></span>
+              <div className='col-sm-6 py-2'> <input name= "organization" type="text" placeholder='Organization*' className='input-full' required />
+              </div>
               </div>
 
               <div className='py-2'>
@@ -54,8 +61,6 @@ export default function Contact() {
               </div>
               <button type="submit" className='know-more mt-3 py-2 px-3'>Submit</button> 
               </div>
-
-             
 
               
           </form>
