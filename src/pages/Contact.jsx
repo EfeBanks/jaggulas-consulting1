@@ -2,6 +2,7 @@ import React from 'react'
 import ContactBg from '../assets/images/contact-bg.jpg'
 import JCLocation from '../components/JCLocation';
 import Man from '../assets/images/nperson.1.jpg';
+import ToTop from '../components/ToTop';
 
 export default function Contact() {
   return (
@@ -81,6 +82,10 @@ export default function Contact() {
        {/* Location */}
         <JCLocation />
       {/* Location ends*/}
+
+      {/* To top icon */}
+        <ToTop />
+      {/* To top icon */}
 
 
 

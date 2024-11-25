@@ -7,6 +7,7 @@ import { MdOutlineVisibility } from "react-icons/md";
 import Modal from 'react-bootstrap/Modal';
 import Service10 from '../assets/images/service10.jpg'
 import { Link } from 'react-router-dom';
+import ToTop from '../components/ToTop';
 
 
 export default function About() {
@@ -115,6 +116,10 @@ export default function About() {
         
 
       {/* what we do */}
+
+      {/* To top icon */}
+        <ToTop />
+      {/* To top icon */}
 
 
       {/* Modal Section */}

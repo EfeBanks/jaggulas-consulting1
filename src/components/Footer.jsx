@@ -3,6 +3,7 @@ import BrandLogo from '../assets/images/logo2.png';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
+
 export default function Footer() {
   return (
     <div className='FooterBg p-5 border-top border-secondary'>
@@ -52,6 +53,8 @@ export default function Footer() {
           <div className='small'> &copy; 2024 Jaggulas Consulting </div>
         </div>
       </div>
+
+      
     </div>
   )
 }

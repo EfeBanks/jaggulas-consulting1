@@ -13,6 +13,7 @@ import { GrCloudSoftware } from "react-icons/gr";
 import { MdDisplaySettings } from "react-icons/md";
 import JCLocation from '../components/JCLocation';
 import { HashLink } from 'react-router-hash-link';
+import ToTop from '../components/ToTop';
 
 
 function Home() {
@@ -178,8 +179,9 @@ function Home() {
 
          {/* Location ends*/}
 
-
-
+        {/* To top icon */}
+          <ToTop />
+        {/* To top icon */}
 
 
     </div>

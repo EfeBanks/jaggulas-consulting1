@@ -481,6 +481,16 @@ a.link-text:hover{
   color: #08baf5 !important;
 }
 
+.to-top{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  border-radius: 50%;
+  color: #08baf5;
+  text-align: center;
+  z-index: 100px;
+
+}
 
 /* Footer ends */
 
@@ -504,9 +514,7 @@ a.link-text:hover{
   }
   
   .videoBg-overlay{
-
     height: 90vh;
-
   
   }
 
@@ -514,6 +522,11 @@ a.link-text:hover{
     font-size: 35px;
     
   }
+
+  .caption1 h3{
+    font-size: 16px;
+  }
+  
   .caption2{
     margin-top:-30%;
    

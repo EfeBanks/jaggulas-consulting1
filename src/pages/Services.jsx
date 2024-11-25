@@ -10,6 +10,7 @@ import Service7 from '../assets/images/service7.jpg'
 import Service8 from '../assets/images/nserv3.jpg'
 //import Service9 from '../assets/images/service9.jpg'
 import Service10 from '../assets/images/service10.jpg'
+import ToTop from '../components/ToTop'
 
 export default function Services() {
   return (
@@ -195,6 +196,9 @@ export default function Services() {
       </div>
       {/* content section 9 ends */}
 
+        {/* To top icon */}
+        <ToTop />
+        {/* To top icon */}
 
     </div>
   )
