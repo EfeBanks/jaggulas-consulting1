@@ -19,37 +19,7 @@ import ToTop from '../components/ToTop';
 function Home() {
   return (
     <div className='home-bg'>
-         {/* Hero section */}
-      {/* <div className="row">
-        <div className='videoBg'>         
-          <video src={cloudvid} autoPlay loop muted playsInline webkit-playsInline />
-          <div className="videoBg-overlay"></div>
-            <div className="caption1">
-                <h1>Jaggulas Consulting</h1>
-                <h3>Your Perfect Virtual Partner</h3> 
-            </div>
-            <div className="caption2"> 
-                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>
-               
-            </div>
-            <div className="caption3">
-              <HashLink to='./#second'>
-                <img src={scrolldown} alt="scroll down" className='scrolldown' />
-              </HashLink>
-            </div>         
-          
-        </div>
-      </div> */}
-        {/* Hero section ends */}
-
-    {/* Hero section 2 */}
+    {/* Hero section */}
         <div className='videoBg'>
         <div className="videoBg-overlay"></div>
           <video src={cloudvid} autoPlay loop muted playsInline webkit-playsInline />
@@ -74,7 +44,7 @@ function Home() {
             </div>  
         </div>
 
-    {/* Hero section 2 ends */}
+    {/* Hero section ends */}
 
      {/* Trusted Partner */}
      <div className="second-section" id='second'>
