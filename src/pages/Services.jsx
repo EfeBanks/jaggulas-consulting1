@@ -1,15 +1,15 @@
 import React from 'react'
 import ServiceBg from '../assets/images/nbg2.1.jpg'
-import Service1 from '../assets/images/service1.jpg'
+import Service1 from '../assets/images/nserv.jpg'
 import Service2 from '../assets/images/service2.jpg'
-import Service3 from '../assets/images/service3.jpg'
+import Service3 from '../assets/images/nserv4.jpg'
 import Service4 from '../assets/images/service4.jpg'
 import Service5 from '../assets/images/service5.jpg'
 import Service6 from '../assets/images/service6.jpg'
 import Service7 from '../assets/images/service7.jpg'
 import Service8 from '../assets/images/nserv3.jpg'
 //import Service9 from '../assets/images/service9.jpg'
-import Service10 from '../assets/images/service10.jpg'
+import Service10 from '../assets/images/nserv2.jpg'
 import ToTop from '../components/ToTop'
 
 export default function Services() {

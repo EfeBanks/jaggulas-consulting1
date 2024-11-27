@@ -377,7 +377,7 @@
   color:#08baf5;
 }
 
-.offer{
+/* .offer{
   list-style-type: none;
   margin:0 !important;
   padding: 0 !important;
@@ -385,11 +385,17 @@
 .offer li{
   font-size: 14px !important;
   text-align: justify;
+} */
+
+.offer{
+  text-align: justify;
+  font-size: 15px !important;
 }
 
 .offer-icon{
   color:#08baf5;
 }
+
 
 .dash{
   width: 60px;
@@ -488,7 +494,7 @@ a.link-text:hover{
   border-radius: 50%;
   color: #08baf5;
   text-align: center;
-  z-index: 100px;
+  z-index: 10;
 
 }
 

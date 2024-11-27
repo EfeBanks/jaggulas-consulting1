@@ -4,7 +4,7 @@ import dummy1 from '../assets/images/dummy1.png';
 import dummy2 from '../assets/images/dummy2.png';
 import dummy3 from '../assets/images/dummy3.png';
 import dummy4 from '../assets/images/dummy4.png';
-import handshake from '../assets/images/handshake1.png'
+import handshake from '../assets/images/nhandshake1.png'
 import handshake2 from '../assets/images/handshake2.png'
 import scrolldown from '../assets/images/scrolldown.png'
 //import { RiScrollToBottomLine } from "react-icons/ri";
@@ -63,7 +63,7 @@ function Home() {
             <div className="row">
             <div className="col-sm second-section-text">
 
-              <div className='second-section-icon'> <FaAward /></div>
+              <div className='second-section-icon fs-1'> <FaAward /></div>
               <h5 className='my-3'>High Quality Delivery</h5>
               <p>
                 We deliver to our clients high-quality software applications and products as well as cloud services by enhancing performance and efficiency while optimizing costs for both new and legacy systems.
@@ -72,7 +72,7 @@ function Home() {
             </div>
             <div className="col-sm second-section-text">
 
-            <div className='second-section-icon'> <MdDisplaySettings /></div>
+            <div className='second-section-icon fs-1'> <MdDisplaySettings /></div>
               <h5 className='my-3'>Software Development</h5>
               <p>
                 At Jaggulas Consulting, we build custom software development services to create tailored, scalable, and efficient solutions for your business needs, enhancing performance and user experience.
@@ -80,7 +80,7 @@ function Home() {
               </p>
             </div>
             <div className="col-sm second-section-text">
-            <div className='second-section-icon'> <GrCloudSoftware /></div>
+            <div className='second-section-icon fs-1'> <GrCloudSoftware /></div>
               <h5 className='my-3'>Cloud Services</h5>
               <p>
               We provide comprehensive cloud services offering secure data storage, scalable infrastructure, and seamless collaboration tools to boost efficiency, flexibility, and business growth while ensuring high performance and reliability.
