@@ -473,7 +473,7 @@ form {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 flip-card p{
@@ -578,6 +578,12 @@ a.link-text:hover{
   .banner-bg-content h1{
     font-size: 35px;
     
+  }
+
+  .caption1 h1{
+    font-size: 7vw;
+   
+   
   }
 
   .caption1 h3{
