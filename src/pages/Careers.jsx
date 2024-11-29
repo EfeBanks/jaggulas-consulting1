@@ -62,11 +62,11 @@ export default function Jobs() {
           <div className="row px-sm-4 px-0 flip-cont text-light">  
           <div className="col-md py-2">
             <div className="flip-card">
-                <div class="flip-card-front p-sm-2 p-0">
+                <div class="flip-card-front p-2">
                 <div className="vision-icon py-2"><BsBuildingsFill/></div>
                   <h5 className="py-2 mx-2 fw-bold">Work with the Latest Tech and with the Best</h5>
                 </div>
-                <div class="flip-card-back p-sm-2 p-0">
+                <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><BsBuildingsFill/></div>
                 <h5>Work with the Latest Tech and with the Best</h5>
                   <p className='small'>Work on cutting edge technology while working with the best in the industry. </p>
@@ -76,11 +76,11 @@ export default function Jobs() {
 
             <div className="col-md py-2">
             <div className="flip-card">
-                <div class="flip-card-front p-sm-2 p-0">
+                <div class="flip-card-front p-2">
                 <div className="vision-icon py-2"><GiTeamIdea/></div>
                   <h5 className="py-2 mx-2 fw-bold">Talent Development</h5>
                 </div>
-                <div class="flip-card-back p-sm-2 p-0">
+                <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><GiTeamIdea/></div>
                 <h5>Talent Development</h5>
                   <p className='small'>Fostering talent and career development to expand your expertise in technology and industry knowledge. </p>
@@ -90,11 +90,11 @@ export default function Jobs() {
 
             <div className="col-md py-2">
             <div className="flip-card">
-                <div class="flip-card-front p-sm-2 p-0">
+                <div class="flip-card-front p-2">
                 <div className="vision-icon py-2"><GiBrain/></div>
                   <h5 className="py-2 mx-2 fw-bold">Soft skills development</h5>
                 </div>
-                <div class="flip-card-back p-sm-2 p-0">
+                <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><GiBrain/></div>
                 <h5>Soft skills development</h5>
                   <p className='small'>We prioritize developing soft skills to enhance communication, collaboration, and leadership abilities.</p>

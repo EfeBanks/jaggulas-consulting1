@@ -117,7 +117,7 @@ export default function About() {
           <div className="col-md-4 vision-cont py-2 rounded-3 mx-2">
             <div className="p-sm-3 p-1 text-center">
               <div className='vision-icon'>< MdOutlineVisibility/></div>
-                  <h5 className="  pb-2 mx-2">Our Vision</h5>
+                  <h5 className="pb-2 mx-2">Our Vision</h5>
                   <div className="p-sm-2 p-0 ">
                   <p className="my-3">
                   To shape the future of technology by providing cutting-edge cloud solutions and Advanced Technology Architecture, empowering organizations to innovate and thrive. We aim to be a catalyst for digital transformation, fostering a resilient and interconnected digital landscape that benefits businesses and communities alike.
