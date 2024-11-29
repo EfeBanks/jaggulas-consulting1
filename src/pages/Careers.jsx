@@ -64,12 +64,12 @@ export default function Jobs() {
             <div className="flip-card">
                 <div class="flip-card-front p-2">
                 <div className="vision-icon py-2"><BsBuildingsFill/></div>
-                  <h5 className="py-2 mx-2 fw-bold">Work with the Latest Tech and with the Best</h5>
+                  <h5 className="py-2 mx-2 fw-bold">Work with the Latest Tech and the Best</h5>
                 </div>
                 <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><BsBuildingsFill/></div>
-                <h5>Work with the Latest Tech and with the Best</h5>
-                  <p className='small'>Work on cutting edge technology while working with the best in the industry. </p>
+                <h5>Work with the Latest Tech and the Best</h5>
+                  <p className='small'>Work with cutting-edge technology alongside the best in the industry. </p>
                 </div> 
               </div>     
             </div>
@@ -83,7 +83,7 @@ export default function Jobs() {
                 <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><GiTeamIdea/></div>
                 <h5>Talent Development</h5>
-                  <p className='small'>Fostering talent and career development to expand your expertise in technology and industry knowledge. </p>
+                  <p className='small'>Fostering talent and career growth to expand your expertise in technology.</p>
                 </div> 
               </div>     
             </div>
@@ -97,7 +97,7 @@ export default function Jobs() {
                 <div class="flip-card-back p-2">
                 <div className="vision-icon py-2"><GiBrain/></div>
                 <h5>Soft skills development</h5>
-                  <p className='small'>We prioritize developing soft skills to enhance communication, collaboration, and leadership abilities.</p>
+                  <p className='small'>We prioritize soft skills to improve communication, collaboration, leadership.</p>
                 </div> 
               </div>     
             </div>
