@@ -14,6 +14,8 @@ import { MdDisplaySettings } from "react-icons/md";
 import JCLocation from '../components/JCLocation';
 import { HashLink } from 'react-router-hash-link';
 import ToTop from '../components/ToTop';
+// import Marquee from "react-marquee-slider";
+import Marquee from "react-fast-marquee";
 
 
 function Home() {
@@ -27,16 +29,19 @@ function Home() {
             <h1>Jaggulas Consulting</h1>
             <h3>Your Perfect Virtual Partner</h3> 
           </div>
-          <div className="caption2"> 
-                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img'> <img src={dummy4} alt="dummy logo" /> </div>       
-            </div>
+            {/* <div className="caption2">  */}
+              <Marquee velocity={25} className="caption2">
+                <div className='moving-img mx-4'> <img src={dummy1} alt="dummy logo" /></div>
+                <div className='moving-img mx-4'> <img src={dummy2} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy4} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy1} alt="dummy logo" /></div>
+                <div className='moving-img mx-4'> <img src={dummy2} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy4} alt="dummy logo" /> </div> 
+                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
+              </Marquee>
+            {/* </div> */}
             <div className="caption3">
               <HashLink to='./#second'>
                 <img src={scrolldown} alt="scroll down" className='scrolldown' />

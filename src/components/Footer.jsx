@@ -18,6 +18,7 @@ export default function Footer() {
             <p> <Link to="/" className='link-text small'>Home</Link> </p>
             <p> <Link to="/Services" className='link-text small'>Services</Link> </p>
             <p> <Link to="/About" className='link-text small'>Who We Are</Link> </p>
+            <p> <Link to="/Careers" className='link-text small'>Careers</Link> </p>
             <p> <Link to="/Contact" className='link-text small'>Contact</Link> </p>
           </div>
           <div className="col-sm px-sm-3 px-1">

@@ -8,6 +8,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import JCLocation from './components/JCLocation';
+//import Careers from './pages/Careers';
 import Careers from './pages/Careers';
 import ToTop from './components/ToTop';
 

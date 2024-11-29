@@ -60,42 +60,42 @@ export default function About() {
            
               <div className="row">
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 Software development services which includes Web development, Backend development and Api gateways
                 </div>
 
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 Cloud services which includes Cloud consulting and Professional services
                 </div>
 
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 Cloud managed services to provide your business with outsourced management of cloud infrastructure
                 </div>
 
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 Cloud assessments services to help evaluate an organization’s current infrastructure and identify opportunities for migration
                 </div>
 
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 Cloud cost optimization to reduce unnecessary cloud expenses by right-sizing resources and optimizing usage
                 </div>
 
                 <div className="col-1">
-                <FaCheckCircle className='offer-icon me-2'/> 
+                <FaCheckCircle className='offer-icon'/> 
                 </div>
                 <div className="col-11 offer">
                 We help businesses transition to the cloud by our cloud migration and modernization services.
