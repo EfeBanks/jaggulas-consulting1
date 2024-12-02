@@ -43,8 +43,9 @@ export default function Footer() {
           <div className="col-sm px-sm-3 px-1">
           <h5 className='about-heading'>Contact Us</h5>
             <p className='small'> business@jaggulasconsulting.com</p>
-            <p className='small'>+91 9490790767</p>
             <p className='small'>+27 740687900</p>
+            <p className='small'>+91 9490790767</p>
+           
 
           </div>
         </div>

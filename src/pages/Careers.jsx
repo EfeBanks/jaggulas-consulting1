@@ -191,35 +191,35 @@ export default function Jobs() {
             <h5 className='pb-2 fw-bold'>Job Application</h5>
             <p className='small'>Share us your Resume and will reach out to you once we have available positions  if the opportunity suits your Role/Position </p>
 
-            <form id="contact-form" method="POST" className='small py-4'>
+            <form id="career-form" className='small py-4' action="https://formsubmit.co/admin@jaggulasconsulting.com" method="POST">
               <div className="row">
                 <div className='col-sm-6 py-2'>
-                  <input name= "fName" type="text" placeholder="First Name*"  className='input-full' required/>
+                  <input name= "firstName" type="text" placeholder="First Name*"  className='input-full' required/>
                 </div>
                 <div className="col-sm-6 py-2">
-                  <input name= "lName" type="text" placeholder="Last Name* " className='input-full' required />
+                  <input name= "lastName" type="text" placeholder="Last Name* " className='input-full' required />
                 </div>
               
 
               <div className='col-sm-6 py-2'>
                 <input name= "email" type="email" placeholder="Email*" className='input-full' required/>
               </div>
-              <div className='col-sm-6 py-2'> <input name= "Mobile No." type="text" placeholder='Organization*' className='input-full' required />
+              <div className='col-sm-6 py-2'> <input name= "mobileNo." type="text" placeholder='Phone number*' className='input-full' required />
               </div>
               </div>
 
               <div className='py-2'>
-                <input type="text" placeholder='Profile link' className='input-full' />
+                <input type="text" name='linkedinLink' placeholder='LinkedIn profile' className='input-full' />
               </div>
 
               <div className='py-2'>
-              <label htmlFor="">Upload your Cover letter*</label>
-                <input type="file" className='input-full' required/>
+              <label htmlFor="">Upload your Cover letter</label>
+                <input type="file" name='coverLetter' className='input-full' />
               </div>
 
               <div className='py-2'>
-                <label htmlFor="">Upload your CV*</label>
-                <input type="file" placeholder='Upload your CV*' className='input-full' required/>
+                <label htmlFor="">Upload your Resume/CV*</label>
+                <input type="file" name='CV' placeholder='Upload your Resume/CV*' className='input-full' required/>
               </div>
               <div>
               <button type="submit" className='know-more mt-3 py-2 px-3'>Submit</button> 

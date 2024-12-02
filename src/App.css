@@ -64,12 +64,10 @@
 }
 
 
-
-
 @keyframes text-movement{
 
   0%{
-      transform: translateY(50%);
+      transform: translateY(20%);
       opacity: 0;
   }
   100%{
@@ -78,7 +76,6 @@
   }
  
 }
-
 
 .caption2{
   width:100%;
@@ -278,13 +275,19 @@
 }
 
 .first-cont{
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/india2.jpg");
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/sa.jpg");
   background-size:cover;
   transition:1s ease;
 
 }
 .second-cont{
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/sa.jpg");
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/india2.jpg");
+  background-size:cover;
+  transition:1s ease;
+
+}
+.middle-cont{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("assets/images/sa2.jpg");
   background-size:cover;
   transition:1s ease;
 
@@ -295,6 +298,10 @@
 }
 
 .second-cont:hover{
+  transform: scale(1.1);
+}
+
+.middle-cont:hover{
   transform: scale(1.1);
 }
 
@@ -434,6 +441,7 @@ form input,textarea{
   border-bottom:1px solid #cccccc; 
   padding:10px;
   background:transparent;
+  color:#fff;
   
   
 }

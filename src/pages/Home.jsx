@@ -66,27 +66,27 @@ function Home() {
             </div>
 
             <div className="row">
-            <div className="col-sm second-section-text">
+            <div className="col-sm second-section-text text">
 
               <div className='second-section-icon fs-1'> <FaAward /></div>
-              <h5 className='my-3'>High Quality Delivery</h5>
+              <h5 className='my-3 text-center'>High Quality Delivery</h5>
               <p>
                 We deliver to our clients high-quality software applications and products as well as cloud services by enhancing performance and efficiency while optimizing costs for both new and legacy systems.
  
               </p>
             </div>
-            <div className="col-sm second-section-text">
+            <div className="col-sm second-section-text text">
 
             <div className='second-section-icon fs-1'> <MdDisplaySettings /></div>
-              <h5 className='my-3'>Software Development</h5>
+              <h5 className='my-3 text-center'>Software Development</h5>
               <p>
                 At Jaggulas Consulting, we build custom software development services to create tailored, scalable, and efficient solutions for your business needs, enhancing performance and user experience.
  
               </p>
             </div>
-            <div className="col-sm second-section-text">
+            <div className="col-sm second-section-text text">
             <div className='second-section-icon fs-1'> <GrCloudSoftware /></div>
-              <h5 className='my-3'>Cloud Services</h5>
+              <h5 className='my-3 text-center'>Cloud Services</h5>
               <p>
               We provide comprehensive cloud services offering secure data storage, scalable infrastructure, and seamless collaboration tools to boost efficiency, flexibility, and business growth while ensuring high performance and reliability.
  
