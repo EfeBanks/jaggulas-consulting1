@@ -8,7 +8,7 @@ export default function JCLocation() {
   return (
     <div>
         <div className="location-section p-5 border-bottom border-secondary">
-          <div className="container">
+          <div className="sm-container">
           <div className="row mx-sm-5 mx-2 d-flex justify-content-center g-3 text-light">
             <div className="col-lg first-cont py-5 rounded">
             <div className="py-3"> 
