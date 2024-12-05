@@ -692,6 +692,18 @@ a.link-text:hover{
     font-size: 11px;
   }
 
+  .to-top{  
+    bottom: 30px;
+    right: 20px;
+  
+  }
+  
+  .whatsapp{
+    bottom: 30px;
+    left: 20px;
+  
+  }
+
 
 }
 
