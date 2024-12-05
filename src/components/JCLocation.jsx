@@ -8,8 +8,9 @@ export default function JCLocation() {
   return (
     <div>
         <div className="location-section p-5 border-bottom border-secondary">
-          <div className="row  mx-sm-5 mx-2 d-flex justify-content-center g-3 text-light">
-            <div className="col-lg-3 first-cont py-5 rounded">
+          <div className="container">
+          <div className="row mx-sm-5 mx-2 d-flex justify-content-center g-3 text-light">
+            <div className="col-lg first-cont py-5 rounded">
             <div className="p-3"> 
                   <h5 className="text-center border-bottom border-secondary pb-2 mx-2">South Africa</h5>
                   <div className="cont-inner p-2">
@@ -31,7 +32,7 @@ export default function JCLocation() {
               </div>
             </div>
 
-            <div className="col-lg-3 middle-cont mx-4 py-5 rounded">
+            <div className="col-lg middle-cont mx-4 py-5 rounded">
             <div className="p-3"> 
                   <h5 className="text-center border-bottom border-secondary pb-2 mx-2">South Africa</h5>
                   <div className="cont-inner p-2">
@@ -53,7 +54,7 @@ export default function JCLocation() {
               </div>
             </div>
 
-            <div className="col-lg-3 second-cont py-5 rounded-3">
+            <div className="col-lg second-cont py-5 rounded-3">
             <div className="p-3">
                   <h5 className=" text-center border-bottom border-secondary pb-2 mx-2">India</h5>
                   <div className="cont-inner p-2 ">
@@ -76,6 +77,7 @@ export default function JCLocation() {
               </div>
 
             </div>
+          </div>
           </div>
         </div>
     </div>

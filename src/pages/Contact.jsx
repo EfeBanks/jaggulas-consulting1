@@ -43,7 +43,7 @@ export default function Contact() {
               <div className='col-sm-6 py-2'>
                 <input name= "email" type="email" placeholder="Email*" className='input-full' required/>
               </div>
-              <div className='col-sm-6 py-2'> <input name= "organization" type="text" placeholder='Organization*' className='input-full' />
+              <div className='col-sm-6 py-2'> <input name= "organization" type="text" placeholder='Organization' className='input-full' />
               </div>
               </div>
 

@@ -1,9 +1,18 @@
 import React from 'react';
 import cloudvid from '../assets/cloudvideo.mp4';
-import dummy1 from '../assets/images/dummy1.png';
-import dummy2 from '../assets/images/dummy2.png';
-import dummy3 from '../assets/images/dummy3.png';
-import dummy4 from '../assets/images/dummy4.png';
+import dummy1 from '../assets/images/icons/API Gateway2.png';
+import dummy2 from '../assets/images/icons/Athena2.png';
+import dummy3 from '../assets/images/icons/Backup2.png';
+import dummy4 from '../assets/images/icons/Batch2.png';
+import dummy5 from '../assets/images/icons/Budgets2.png';
+import dummy6 from '../assets/images/icons/Cloud Development Kit2.png';
+import dummy7 from '../assets/images/icons/CodeDeploy2.png';
+import dummy8 from '../assets/images/icons/Cognito2.png';
+import dummy9 from '../assets/images/icons/DataSync2.png';
+import dummy10 from '../assets/images/icons/Cost and Usage Report2.png';
+import dummy11 from '../assets/images/icons/Lambda2.png';
+import dummy12 from '../assets/images/icons/EKS Anywhere2.png';
+import dummy13 from '../assets/images/icons/IAM Identity Center2.png';
 import handshake from '../assets/images/nhandshake1.png'
 import handshake2 from '../assets/images/handshake2.png'
 import scrolldown from '../assets/images/scrolldown.png'
@@ -35,11 +44,16 @@ function Home() {
                 <div className='moving-img mx-4'> <img src={dummy2} alt="dummy logo" /> </div>
                 <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
                 <div className='moving-img mx-4'> <img src={dummy4} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img mx-4'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy4} alt="dummy logo" /> </div> 
-                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy5} alt="dummy logo" /></div>
+                <div className='moving-img mx-4'> <img src={dummy6} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy7} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy8} alt="dummy logo" /> </div> 
+                <div className='moving-img mx-4'> <img src={dummy9} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy10} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy11} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy12} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={dummy13} alt="dummy logo" /> </div>
+              
               </Marquee>
             {/* </div> */}
             <div className="caption3">

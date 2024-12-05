@@ -115,24 +115,28 @@ export default function Jobs() {
       <div className="second-section border-bottom border-secondary">
         <div className="container">
         <div className="row pt-5 pb-3 px-sm-4 px-0 mx-sm-5 mx-1 text-center text-light">
-            <h4 className="col-12 fw-bold about-heading">Open Positions</h4>
+            <h4 className="col-12 fw-bold about-heading">Open Position</h4>
         </div>
-            <div className="row px-sm-4 px-0 mx-sm-5 mx-1 g-4 d-flex justify-content-center my-2">
-                <div className="col-md py-2 mx-2">
-                <div className="row p-sm-3 p-2 text-center border border-secondary rounded-3 my-3">                  
-                        <div className="col-sm-4">
-                            <h5 className='fw-bold'>Intern</h5>
-                        </div>
-                        <div className="col-sm-4">
-                            <p><b>Job Type:</b> Hybrid</p>
-                            <p><b>Location:</b> Capetown, South Africa</p>
-                        </div>
-                        <div className="col-sm-4">
-                        <HashLink to='/Careers#apply'> <button className='know-more p-2'>Apply</button> </HashLink>
-           
-                        </div> 
-                </div>
+            <div className="row px-sm-4 px-0 mx-sm-5 mx-1 d-flex justify-content-center my-2 ">
+                <div className="col-md-8 py-2 mx-2 flip-cont2">
 
+                <div className="flip-card2 border border-secondary rounded-4 ">
+                <div class="flip-card-front2 p-2">
+                
+                  <h5 className="py-2 mx-2 fw-bold">Intern</h5>
+                  <p><b>Job Type:</b> Hybrid</p>
+                  <p><b>Location:</b> Capetown, South Africa</p>
+                 
+                </div>
+                <div class="flip-card-back2 p-2">
+                <h5>Intern</h5>
+                  <p className='small'>Graduation final year or fresher</p>
+                  <HashLink to='/Careers#apply'> <button className='know-more p-2'>Apply</button> </HashLink>
+           
+                </div> 
+              </div> 
+
+{/* 
                 <div className="row p-sm-3 p-2 text-center border border-secondary rounded-3 my-3">                  
                         <div className="col-sm-4">
                             <h5 className='fw-bold'>Testing</h5>
@@ -173,7 +177,7 @@ export default function Jobs() {
                         <button className='apply p-2'>Apply</button> 
            
                         </div> 
-                </div>
+                </div> */}
 
                 </div>
 
