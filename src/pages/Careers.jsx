@@ -1,12 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import CareersBg from '../assets/images/careers-bg.jpg'
 import CareerImg from '../assets/images/nperson2.jpg'
 import { BsBuildingsFill } from "react-icons/bs";
 import { GiTeamIdea } from "react-icons/gi";
 import { GiBrain } from "react-icons/gi";
 import { HashLink } from 'react-router-hash-link';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
 export default function Jobs() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div style={{overflowX:'hidden'}}>
        {/* Hero section */}
@@ -112,7 +118,7 @@ export default function Jobs() {
 
      
       {/* Career section 3 */}
-      <div className="second-section border-bottom border-secondary">
+    {/*   <div className="second-section border-bottom border-secondary">
         <div className="container">
         <div className="row pt-5 pb-3 px-sm-4 px-0 mx-sm-5 mx-1 text-center text-light">
             <h4 className="col-12 fw-bold about-heading">Open Position</h4>
@@ -127,10 +133,11 @@ export default function Jobs() {
                   <p><b>Job Type:</b> Hybrid</p>
                   <p><b>Location:</b> Capetown, South Africa</p>
                  
+                 
                 </div>
                 <div class="flip-card-back2 p-2">
                 <h5>Intern</h5>
-                <p className="small fw-bold">Role Overview</p>
+                 <p className="small fw-bold">Role Overview</p>
                   <p className='small' style={{textAlign:'left'}}>We are seeking a recent graduate in Computer Science to join our team as an Intern. This is a hands-on opportunity to work on real-world projects, develop technical skills and collaborate with seasoned professionals in the tech industry.</p>
 
                 <p className="small fw-bold">Key Responsibilities</p>
@@ -151,11 +158,11 @@ export default function Jobs() {
                 </ul>
                 
                   <HashLink to='/Careers#apply'> <button className='know-more p-2'>Apply</button> </HashLink>
-           
+            
                 </div> 
               </div> 
 
-{/* 
+//separate comment{/* 
                 <div className="row p-sm-3 p-2 text-center border border-secondary rounded-3 my-3">                  
                         <div className="col-sm-4">
                             <h5 className='fw-bold'>Testing</h5>
@@ -196,15 +203,48 @@ export default function Jobs() {
                         <button className='apply p-2'>Apply</button> 
            
                         </div> 
-                </div> */}
+                </div> //separate comment
 
                 </div>
 
             </div>
         </div>
-       </div>
+       </div> */}
 
       {/* Career section 3 ends */}
+
+         {/* New Career section 3 ends */}
+
+        <div className="second-section border-bottom border-secondary">
+        <div className="container">
+        <div className="row pt-5 pb-3 px-sm-4 px-0 mx-sm-5 mx-1 text-center text-light">
+            <h4 className="col-12 fw-bold about-heading">Open Position</h4>
+        </div>
+            <div className="row px-sm-4 px-0 mx-sm-5 mx-1 d-flex justify-content-center my-2 ">
+
+         <div className="col-md-5 vision-cont py-2 mx-2 border border-secondary rounded-4">
+            <div className="p-sm-3 p-1 text-center">
+         
+                  <h5 className="py-2 mx-2 fw-bold">Intern</h5>
+                  <div className="p-sm-2 p-0 ">
+                  <p><b>Job Type:</b> Hybrid</p>
+                  <p><b>Location:</b> Capetown, South Africa</p>
+
+                  <div className="my-3">
+                    <button className="see-req p-2 m-2" onClick={handleShow} >View Requirements</button>
+                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2'>Apply</button> </HashLink>
+                    
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+
+        {/* New Career section 3 ends */}
 
       {/* Career section 4 */}
       <div className='second-section border-bottom border-secondary' id='apply'>
@@ -262,6 +302,55 @@ export default function Jobs() {
 
        {/* Career section 4 ends */}
 
+{/* Modal Section */}
+
+<>     
+       
+       <Modal show={show} onHide={handleClose} className='modal-lg modal-bg' style={{backgroundColor: '#050B3A'}} >         
+           <Modal.Header closeButton></Modal.Header>
+
+           <Modal.Body>  
+           <div className="container"> 
+           <div className='row'>            
+
+               <div className="col-sm text-light" style={{padding:'20px'}}> 
+               <div style={{color:'#050B3A'}}>
+                   <h5>Intern</h5>
+                <p className="small fw-bold">Role Overview</p>
+                  <p className='small' style={{textAlign:'left'}}>We are seeking a recent graduate in Computer Science to join our team as an Intern. This is a hands-on opportunity to work on real-world projects, develop technical skills and collaborate with seasoned professionals in the tech industry.</p>
+
+                <p className="small fw-bold">Key Responsibilities</p>
+                <ul style={{textAlign:'left'}} className='small'>
+                  <li>Assist in the development, testing and debugging of software applications.</li>
+                  <li>Write and maintain clean, efficient and well-documented code.</li>
+                  <li>Perform research on emerging technologies and provide innovative solutions.</li>
+                </ul>
+
+                <p className="small fw-bold">Qualifications</p>
+                <ul style={{textAlign:'left'}} className='small'>
+                  <li>A recent graduate in Computer Science or a related field.</li>
+                  <li>Knowledge of web development (HTML, CSS, JavaScript) or backend technologies.</li>
+                  <li>Familiarity with version control systems like Git.</li>
+                  <li>Strong analytical and problem-solving skills.</li>
+                  <li>Eagerness to learn and adapt to new technologies.</li>
+                  <li>Good communication and teamwork abilities.</li>
+                </ul>
+                
+                  </div>
+               </div>     
+           </div>
+           </div>
+               </Modal.Body> 
+               <Modal.Footer className='ms-auto'>
+                  <Button variant="secondary" onClick={handleClose}>
+                    Close
+                  </Button>
+        
+              </Modal.Footer>
+
+       </Modal> 
+   </>
+        {/* Modal Section ends */}
 
 
       

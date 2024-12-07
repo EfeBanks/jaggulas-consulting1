@@ -491,7 +491,7 @@ form {
 .flip-card2 {
   position: relative;
   width: 100%;
-  min-height: 700px !important;
+  min-height: 600px !important;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
@@ -560,6 +560,14 @@ flip-card2 p{
   border-radius:10px;
   border:none;
   padding:0 15px;
+}
+
+.see-req{
+  background:transparent;
+  border-radius:10px;
+  border:1px solid #08baf5;
+  padding:0 15px;
+  color:#08baf5;
 }
 
 /* Careers Page ends */
@@ -717,7 +725,7 @@ a.link-text:hover{
 /* Media Query tab */
 @media screen and (max-width:991px){
   .flip-card2 {
-    min-height: 900px !important;
+    min-height: 800px !important;
     
   }
 

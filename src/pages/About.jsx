@@ -47,15 +47,6 @@ export default function About() {
               </p>
 
               <h5 className='fw-bold mb-3 mt-4'>What we offer :<span className='dash ms-2'></span> </h5> 
-              {/* <ul className='offer'>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span> Software development services which includes Web development, Backend development and Api gateways</li>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span>Cloud services which includes Cloud consulting and Professional services</li>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span> Cloud managed services to provide your business with outsourced management of cloud infrastructure</li>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span>Cloud assessments services to help evaluate an organization’s current infrastructure and identify opportunities for migration</li>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span>Cloud cost optimization to reduce unnecessary cloud expenses by right-sizing resources and optimizing usage </li>
-                <li><span><FaCheckCircle className='offer-icon me-2'/> </span>We help businesses transition to the cloud by our cloud migration and modernization services.</li>
-             
-              </ul>   */}
 
            
               <div className="row">
