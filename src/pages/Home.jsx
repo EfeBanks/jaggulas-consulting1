@@ -1,18 +1,18 @@
 import React from 'react';
 import cloudvid from '../assets/cloudvideo.mp4';
-import dummy1 from '../assets/images/icons/API Gateway2.png';
-import dummy2 from '../assets/images/icons/Athena2.png';
-import dummy3 from '../assets/images/icons/Backup2.png';
-import dummy4 from '../assets/images/icons/Batch2.png';
-import dummy5 from '../assets/images/icons/Budgets2.png';
-import dummy6 from '../assets/images/icons/Cloud Development Kit2.png';
-import dummy7 from '../assets/images/icons/CodeDeploy2.png';
-import dummy8 from '../assets/images/icons/Cognito2.png';
-import dummy9 from '../assets/images/icons/DataSync2.png';
-import dummy10 from '../assets/images/icons/Cost and Usage Report2.png';
-import dummy11 from '../assets/images/icons/Lambda2.png';
-import dummy12 from '../assets/images/icons/EKS Anywhere2.png';
-import dummy13 from '../assets/images/icons/IAM Identity Center2.png';
+import icon1 from '../assets/images/icons/API Gateway2.png';
+import icon2 from '../assets/images/icons/Athena2.png';
+import icon3 from '../assets/images/icons/Backup2.png';
+import icon4 from '../assets/images/icons/Batch2.png';
+import icon5 from '../assets/images/icons/Budgets2.png';
+import icon6 from '../assets/images/icons/Cloud Development Kit2.png';
+import icon7 from '../assets/images/icons/CodeDeploy2.png';
+import icon8 from '../assets/images/icons/Cognito2.png';
+import icon9 from '../assets/images/icons/DataSync2.png';
+import icon10 from '../assets/images/icons/Cost and Usage Report2.png';
+import icon11 from '../assets/images/icons/Lambda2.png';
+import icon12 from '../assets/images/icons/EKS Anywhere2.png';
+import icon13 from '../assets/images/icons/IAM Identity Center2.png';
 import handshake from '../assets/images/nhandshake1.png'
 import handshake2 from '../assets/images/handshake2.png'
 import scrolldown from '../assets/images/scrolldown.png'
@@ -40,19 +40,19 @@ function Home() {
           </div>
             {/* <div className="caption2">  */}
               <Marquee velocity={25} className="caption2">
-                <div className='moving-img mx-4'> <img src={dummy1} alt="dummy logo" /></div>
-                <div className='moving-img mx-4'> <img src={dummy2} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy3} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy4} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy5} alt="dummy logo" /></div>
-                <div className='moving-img mx-4'> <img src={dummy6} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy7} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy8} alt="dummy logo" /> </div> 
-                <div className='moving-img mx-4'> <img src={dummy9} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy10} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy11} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy12} alt="dummy logo" /> </div>
-                <div className='moving-img mx-4'> <img src={dummy13} alt="dummy logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon1} alt="icon logo" /></div>
+                <div className='moving-img mx-4'> <img src={icon2} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon3} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon4} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon5} alt="icon logo" /></div>
+                <div className='moving-img mx-4'> <img src={icon6} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon7} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon8} alt="icon logo" /> </div> 
+                <div className='moving-img mx-4'> <img src={icon9} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon10} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon11} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon12} alt="icon logo" /> </div>
+                <div className='moving-img mx-4'> <img src={icon13} alt="icon logo" /> </div>
               
               </Marquee>
             {/* </div> */}

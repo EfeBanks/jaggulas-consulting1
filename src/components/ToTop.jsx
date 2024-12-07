@@ -19,7 +19,7 @@ function ToTop({toTop}) {
         )}
 
     {toTop && (
-        <a href="https://wa.me/+917842883640?text=Hello! Jaggulas Consulting" target='_blank' rel="noreferrer">       
+        <a href="https://wa.me/+27740687900?text=Hello! Jaggulas Consulting" target='_blank' rel="noreferrer">       
             <span className='whatsapp'><span className='fs-1 '><FaWhatsapp/></span><sup className='small'>?</sup></span>
         </a>
     )}
