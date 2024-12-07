@@ -2,7 +2,8 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MdCall } from "react-icons/md";
-import { FaClock } from "react-icons/fa";
+//import { FaClock } from "react-icons/fa";
+
 
 export default function JCLocation() {
   return (
@@ -23,9 +24,9 @@ export default function JCLocation() {
                     <div className="call my-3">
                       <span className='me-3'><MdCall/></span> +27 740687900 
                     </div>
-                    <div className="time">
+                    {/* <div className="time">
                       <span className='me-3'><FaClock/></span> 8AM to 5PM
-                    </div>
+                    </div> */}
                     
                   </div>
                   
@@ -45,9 +46,7 @@ export default function JCLocation() {
                     <div className="call my-3">
                       <span className='me-3'><MdCall/></span> +27 740687900 
                     </div>
-                    <div className="time">
-                      <span className='me-3'><FaClock/></span> 8AM to 5PM
-                    </div>
+                   
                     
                   </div>
                   
@@ -67,10 +66,6 @@ export default function JCLocation() {
                     </div>
                     <div className="call my-3">
                       <span className='me-3'><MdCall/></span> +91 9490790767
-                    </div>
-
-                    <div className="time">
-                      <span className='me-3'><FaClock/></span> 9AM to 6PM 
                     </div>
                   
                 </div>
