@@ -6,7 +6,7 @@ import ToTop from '../components/ToTop';
 
 export default function Contact() {
   return (
-    <div>
+    <div style={{overflowX:'hidden'}}>
       {/* Hero section */}
       <div className="row ">
         <div className='col banner-bg'>
@@ -30,7 +30,7 @@ export default function Contact() {
             <h5 className='pt-5 pb-2 fw-bold'>REQUEST FOR SERVICE</h5>
             <p className='small'>We have fostered growth and meaningful transformation in every industry and are eager to build on your trust. Share a bit more about yourself so we can get started!</p>
 
-            <form id="contact-form" action="https://formsubmit.co/el/confirm/66ae3fe7592b15500a2c70b77c368bd3" method="POST" className='small py-4'> 
+            <form id="contact-form" action="https://formspree.io/f/xovqbzaz" method="POST" className='small py-4'> 
               <div className="row">
                 <div className='col-sm-6 py-2'>
                   <input name= "firstName" type="text" placeholder="First Name*"  className='input-full' required/>
@@ -52,7 +52,7 @@ export default function Contact() {
               </div>
 
               <div className='py-2'>
-                <input type="text" name='industry' placeholder='Industry*' className='input-full' required/>
+                <input type="text" name='industry' placeholder='Industry' className='input-full'/>
               </div>
               <textarea name="message" rows="2" placeholder='How can we help you?*' required></textarea>
               <div>

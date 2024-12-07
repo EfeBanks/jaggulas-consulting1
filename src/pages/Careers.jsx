@@ -8,7 +8,7 @@ import { HashLink } from 'react-router-hash-link';
 
 export default function Jobs() {
   return (
-    <div>
+    <div style={{overflowX:'hidden'}}>
        {/* Hero section */}
        <div className="row ">
         <div className='col banner-bg'>
@@ -121,16 +121,35 @@ export default function Jobs() {
                 <div className="col-md-8 py-2 mx-2 flip-cont2">
 
                 <div className="flip-card2 border border-secondary rounded-4 ">
-                <div class="flip-card-front2 p-2">
+                <div class="flip-card-front2 p-2 d-flex justify-content-center align-items-center flex-column">
                 
-                  <h5 className="py-2 mx-2 fw-bold">Intern</h5>
+                  <h5 className="py-2 mx-2 fw-bold ">Intern</h5>
                   <p><b>Job Type:</b> Hybrid</p>
                   <p><b>Location:</b> Capetown, South Africa</p>
                  
                 </div>
                 <div class="flip-card-back2 p-2">
                 <h5>Intern</h5>
-                  <p className='small'>Graduation final year or fresher</p>
+                <p className="small fw-bold">Role Overview</p>
+                  <p className='small' style={{textAlign:'left'}}>We are seeking a recent graduate in Computer Science to join our team as an Intern. This is a hands-on opportunity to work on real-world projects, develop technical skills and collaborate with seasoned professionals in the tech industry.</p>
+
+                <p className="small fw-bold">Key Responsibilities</p>
+                <ul style={{textAlign:'left'}} className='small'>
+                  <li>Assist in the development, testing and debugging of software applications.</li>
+                  <li>Write and maintain clean, efficient and well-documented code.</li>
+                  <li>Perform research on emerging technologies and provide innovative solutions.</li>
+                </ul>
+
+                <p className="small fw-bold">Qualifications</p>
+                <ul style={{textAlign:'left'}} className='small'>
+                  <li>A recent graduate in Computer Science or a related field.</li>
+                  <li>Knowledge of web development (HTML, CSS, JavaScript) or backend technologies.</li>
+                  <li>Familiarity with version control systems like Git.</li>
+                  <li>Strong analytical and problem-solving skills.</li>
+                  <li>Eagerness to learn and adapt to new technologies.</li>
+                  <li>Good communication and teamwork abilities.</li>
+                </ul>
+                
                   <HashLink to='/Careers#apply'> <button className='know-more p-2'>Apply</button> </HashLink>
            
                 </div> 
@@ -195,7 +214,7 @@ export default function Jobs() {
             <h5 className='pb-2 fw-bold'>Job Application</h5>
             <p className='small'>Share us your Resume and will reach out to you once we have available positions  if the opportunity suits your Role/Position </p>
 
-            <form id="career-form" className='small py-4' action="https://formsubmit.co/admin@jaggulasconsulting.com" method="POST">
+            <form id="career-form" className='small py-4' action="https://formspree.io/f/xovqbzaz" method="POST">
               <div className="row">
                 <div className='col-sm-6 py-2'>
                   <input name= "firstName" type="text" placeholder="First Name*"  className='input-full' required/>
