@@ -232,7 +232,7 @@ export default function Jobs() {
 
                   <div className="my-3">
                     <button className="see-req p-2 m-2" onClick={handleShow} >View Requirements</button>
-                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2' style={{border:'1px solid #08baf5'}}>Apply</button> </HashLink>
+                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2' style={{border:'1px solid #08baf5, fontSize:13px'}}>Apply</button> </HashLink>
                     
                   </div>
                   </div>
