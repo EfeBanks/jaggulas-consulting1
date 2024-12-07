@@ -232,7 +232,7 @@ export default function Jobs() {
 
                   <div className="my-3">
                     <button className="see-req p-2 m-2" onClick={handleShow} >View Requirements</button>
-                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2'>Apply</button> </HashLink>
+                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2' style={{border:'1px solid #08baf5'}}>Apply</button> </HashLink>
                     
                   </div>
                   </div>
@@ -306,7 +306,7 @@ export default function Jobs() {
 
 <>     
        
-       <Modal show={show} onHide={handleClose} className='modal-lg modal-bg' style={{backgroundColor: '#050B3A'}} >         
+       <Modal show={show} onHide={handleClose} className='modal-md modal-bg' style={{backgroundColor: '#050B3A'}} >         
            <Modal.Header closeButton></Modal.Header>
 
            <Modal.Body>  
@@ -317,7 +317,7 @@ export default function Jobs() {
                <div style={{color:'#050B3A'}}>
                    <h5>Intern</h5>
                 <p className="small fw-bold">Role Overview</p>
-                  <p className='small' style={{textAlign:'left'}}>We are seeking a recent graduate in Computer Science to join our team as an Intern. This is a hands-on opportunity to work on real-world projects, develop technical skills and collaborate with seasoned professionals in the tech industry.</p>
+                  <p className='small' style={{textAlign:'justify'}}>We are seeking a recent graduate in Computer Science to join our team as an Intern. This is a hands-on opportunity to work on real-world projects, develop technical skills and collaborate with seasoned professionals in the tech industry.</p>
 
                 <p className="small fw-bold">Key Responsibilities</p>
                 <ul style={{textAlign:'left'}} className='small'>
