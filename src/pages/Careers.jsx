@@ -214,7 +214,7 @@ export default function Jobs() {
             <h5 className='pb-2 fw-bold'>Job Application</h5>
             <p className='small'>Share us your Resume and will reach out to you once we have available positions  if the opportunity suits your Role/Position </p>
 
-            <form id="career-form" className='small py-4' action="https://formspree.io/f/xovqbzaz" method="POST">
+            <form id="career-form" className='small py-4' action="https://formspree.io/f/xqakokjv" method="POST">
               <div className="row">
                 <div className='col-sm-6 py-2'>
                   <input name= "firstName" type="text" placeholder="First Name*"  className='input-full' required/>
