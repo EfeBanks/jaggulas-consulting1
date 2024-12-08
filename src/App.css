@@ -571,6 +571,13 @@ flip-card2 p{
   font-size:13px;
 }
 
+.new-apply{
+  background-color:#08baf5;
+  border-radius:10px;
+  border:1px solid #08baf5;
+  padding:0 15px;
+  font-size:13px;
+}
 /* Careers Page ends */
 
 /* Footer */

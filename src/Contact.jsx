@@ -1,14 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ContactBg from '../assets/images/contact-bg.jpg'
 import JCLocation from '../components/JCLocation';
 import Man from '../assets/images/nperson.1.jpg';
 import ToTop from '../components/ToTop';
 
 export default function Contact() {
+  const isEmail = (email) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
+  const [values, setValues] = useState({email: ''});
+  const [errors, setErrors] = useState({});
 
+  const ValidateForm = (e) => {
+    e.preventDefault();
+    const errors ={};
+
+    if(!isEmail(values.email)){
+      errors.email = 'Wrong email format';
+    }
+
+    setErrors(errors);
+
+    if(!Object.keys(errors).length){
+      // alert(JSON.stringify(values, null, 2));
+      alert("Correct email format")
+    }
+  }
+
+  const setEmail = (e) =>{
+    setValues((values) => ({...values, email: e.target.value}));
+  }
 
   return (
-    <div>
+    <div style={{overflowX:'hidden'}}>
       {/* Hero section */}
       <div className="row ">
         <div className='col banner-bg'>
@@ -32,7 +54,7 @@ export default function Contact() {
             <h5 className='pt-5 pb-2 fw-bold'>REQUEST FOR SERVICE</h5>
             <p className='small'>We have fostered growth and meaningful transformation in every industry and are eager to build on your trust. Share a bit more about yourself so we can get started!</p>
 
-            <form id="contact-form" action="https://formspree.io/f/movqzqzj" method="POST" className='small py-4'> 
+            <form id="contact-form" onSubmit={ValidateForm} action="https://formspree.io/f/movqzqzj" method="POST" className='small py-4'> 
               <div className="row">
                 <div className='col-sm-6 py-2'>
                   <input name= "firstName" type="text" placeholder="First Name*"  className='input-full' required/>
@@ -43,8 +65,16 @@ export default function Contact() {
               
 
               <div className='col-sm-6 py-2'>
-                <input name= "email" id="userEmail" type="email" placeholder="Email*" className='input-full'/>
+                <input name= "email" id="userEmail" value={values.email} onChange={setEmail} type="email" placeholder="Email*" className='input-full'/>
               </div>
+
+              {Object.entries(errors).map(([key, error]) => (
+              <span
+              key={`${key}: ${error}`}
+              style={{color:'red'}}>
+                {key} : {error}
+              </span>
+            ))} 
 
               <div className='col-sm-6 py-2'> <input name= "organization" type="text" placeholder='Organization' className='input-full' />
               </div>

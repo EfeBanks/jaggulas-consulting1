@@ -14,7 +14,7 @@ export default function Jobs() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div style={{overflowX:'hidden'}}>
+    <div>
        {/* Hero section */}
        <div className="row ">
         <div className='col banner-bg'>
@@ -232,7 +232,7 @@ export default function Jobs() {
 
                   <div className="my-3">
                     <button className="see-req p-2 m-2" onClick={handleShow} >View Requirements</button>
-                    <HashLink to='/Careers#apply'><button className='know-more p-2 m-2' style={{border:'1px solid #08baf5, fontSize:13px'}}>Apply</button> </HashLink>
+                    <HashLink to='/Careers#apply'><button className='new-apply p-2 m-2' style={{border:'1px solid #08baf5, fontSize:13px'}}>Apply</button> </HashLink>
                     
                   </div>
                   </div>
