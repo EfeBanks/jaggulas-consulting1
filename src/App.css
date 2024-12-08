@@ -34,7 +34,6 @@
   height: 110vh;
   overflow: hidden;
   background-color: rgba(0,0,0,.7);
-  /* background-color: #000000aa; */
 
 }
 
@@ -83,9 +82,8 @@
   display: flex;
   align-items: start;
   justify-content: space-around;
-  /* flex-direction: row; */
   margin-top:-12%;
-  /* animation: scrollx 25s linear normal infinite; */
+
 }
 
 @keyframes scrollx {
@@ -145,7 +143,6 @@
 /* Trusted Partner section */
 
 .second-section{
-  /* background-image: url(assets/images/bg3.jpg); */
   background: linear-gradient(to top, #00051e,  #010528);
   padding:5% 0;
   color:#fff;
@@ -314,7 +311,6 @@
 
 /* Services page */
 .banner-bg img{
-  /* background-color: #001019; */
   width:100%;
   margin:-10% 0 0 0;
   height: 100vh;
@@ -362,8 +358,6 @@
   transform: scale(1.1);
 }
 
-
-
 /* Services page ends*/
 
 /* About page*/
@@ -381,16 +375,6 @@
 .about-heading{
   color:#08baf5;
 }
-
-/* .offer{
-  list-style-type: none;
-  margin:0 !important;
-  padding: 0 !important;
-}
-.offer li{
-  font-size: 14px !important;
-  text-align: justify;
-} */
 
 .offer{
   text-align: justify;
@@ -422,7 +406,6 @@
 }
 
 .vision-cont:hover{
-  /* background-color:#050b3ae6; */
   background-color:#111536e6;
 
 }

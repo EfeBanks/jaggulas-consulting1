@@ -2,7 +2,6 @@ import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MdCall } from "react-icons/md";
-//import { FaClock } from "react-icons/fa";
 
 
 export default function JCLocation() {
@@ -47,28 +46,6 @@ export default function JCLocation() {
                   
               </div>
             </div>
-
-            {/* <div className="col-lg middle-cont mx-4 py-5 rounded">
-            <div className="py-3"> 
-                  <h5 className="text-center border-bottom border-secondary pb-2 mx-2">South Africa</h5>
-                  <div className="cont-inner p-2">
-                    
-                    <div className="mail my-3">
-                      <span className=''><MdEmail/></span> business@jaggulasconsulting.com
-
-                    </div>
-                    <div className="call my-3">
-                      <span className='me-3'><MdCall/></span> +27 740687900 
-                    </div>
-                    <div className="time">
-                      <span className='me-3'><FaClock/></span> 8AM to 5PM
-                    </div> 
-                   
-                    
-                  </div>
-                  
-              </div>
-            </div> */}
 
             <div className="col-lg-4 second-cont py-5 rounded-3 mx-3">
             <div className="py-3">

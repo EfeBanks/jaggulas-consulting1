@@ -10,7 +10,6 @@ export default function Footer() {
     <div className='FooterBg p-5 border-top border-secondary'>
       <div className="container">
         <div className="row py-3 d-flex justify-content-center g-4 text-center">
-          {/* <div className="col-sm px-sm-3 px-1"> */}
           <div className="col-sm-6 col-md-3 px-1">
             <h5 className='about-heading'>Who We Are</h5>
             <p className='small'>At Jaggulas Consulting, our business is about providing to our Clients, Software Development and Cloud Services. Our commitment to excellence and integrity sets us apart from other IT service providers <Link to="/About" className='read-more'>read more...</Link></p>
@@ -35,7 +34,6 @@ export default function Footer() {
               </div>
 
               <div className="col-md-6">
-              {/* <h5 className='about-heading'>Services</h5> */}
               <p> <HashLink to='/Services#cloudassessments' className='link-text small'>Professional Services</HashLink> </p>
               <p> <HashLink to='/Services#cloudcost' className='link-text small'>Cloud Assessments</HashLink> </p>
               <p> <HashLink to='/Services#migration' className='link-text small'>Cloud Cost Optimization</HashLink> </p>

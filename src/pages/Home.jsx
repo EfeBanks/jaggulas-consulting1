@@ -16,7 +16,6 @@ import icon13 from '../assets/images/icons/IAM Identity Center2.png';
 import handshake from '../assets/images/nhandshake1.png'
 import handshake2 from '../assets/images/handshake2.png'
 import scrolldown from '../assets/images/scrolldown.png'
-//import { RiScrollToBottomLine } from "react-icons/ri";
 import { FaAward } from "react-icons/fa";
 import { GrCloudSoftware } from "react-icons/gr";
 import { MdDisplaySettings } from "react-icons/md";

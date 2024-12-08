@@ -154,7 +154,6 @@ export default function NavigationBar({menuOpen, setMenuOpen}) {
 
                         <div className="row mega-right">
                                 <div className="mega-links mega-special-container">
-                                {/* <header className='header-special'>Service 1</header> */}
                                 {ActiveView()}
                                    
                                 </div>  

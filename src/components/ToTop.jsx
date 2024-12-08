@@ -1,7 +1,6 @@
 import React from 'react'
 import { IoIosArrowDropupCircle } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
-//import { IoLogoWhatsapp } from "react-icons/io";
 
 
 function ToTop({toTop}) {
